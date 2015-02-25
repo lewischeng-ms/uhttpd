@@ -1,0 +1,21 @@
+body {
+	color: rgb(85, 40, 0); background-color: rgb(248, 244, 231);
+}
+a.link {
+	color: rgb(0, 0, 160);
+}
+a.visited {
+	color: rgb(160, 0, 160);
+}
+a.active {
+	color: rgb(0, 160, 0);
+}
+img.thumb {
+	width: 100px; height: 100px;
+}
+img.big {
+	width: 900px; height: 900px;
+}
+img.xref {
+	padding-right: 10px; padding-left: 6px; vertical-align: middle;
+}
