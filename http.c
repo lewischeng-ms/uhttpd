@@ -301,7 +301,7 @@ packet_type *create_packet_from_response(http_response_type *response) {
 		"%s %s\r\n"
 		"Server: %s\r\n"
 		"Content-Type: %s\r\n"
-		"Content-Length: %u\r\n"
+		"Content-Length: %lu\r\n"
 		"Connection: %s\r\n\r\n",
 		response->version,
 		response->code_plus_desc,
